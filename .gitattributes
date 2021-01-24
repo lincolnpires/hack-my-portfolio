@@ -15,6 +15,9 @@
 ##   This will handle all files NOT defined below.
 * text=auto
 
+## bootstrap studio files
+*.bsdesign binary
+
 ## SOURCE CODE
 *.bat      text eol=crlf
 *.coffee   text
