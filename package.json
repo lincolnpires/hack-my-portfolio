@@ -10,12 +10,17 @@
   },
   "dependencies": {
     "@11ty/eleventy": "^0.11.1",
+    "@11ty/eleventy-plugin-rss": "^1.1.0",
     "@fortawesome/fontawesome-free": "^5.15.2",
     "@tryghost/content-api": "^1.4.13",
     "@tryghost/helpers": "^1.1.37",
     "bootstrap": "^4.6.0",
+    "clean-css": "^4.2.3",
     "dotenv": "^8.2.0",
+    "eleventy-plugin-local-images": "^0.4.0",
+    "html-minifier": "^4.0.0",
     "jquery": "^3.5.1",
-    "parcel-bundler": "^1.12.4"
+    "parcel-bundler": "^1.12.4",
+    "terser": "^5.5.1"
   }
 }
