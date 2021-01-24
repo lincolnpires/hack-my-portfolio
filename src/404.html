@@ -12,7 +12,8 @@
     }
 
     html {
-      color: #888;
+      background: #000;
+      color: #fff;
       display: table;
       font-family: sans-serif;
       height: 100%;
@@ -27,14 +28,22 @@
     }
 
     h1 {
-      color: #555;
+      color: #eee;
       font-size: 2em;
       font-weight: 400;
     }
 
     p {
-      margin: 0 auto;
+      margin: .5rem auto;
       width: 280px;
+    }
+
+    a {
+      color: #f0f8ff;
+    }
+    a:hover {
+      color: #fff;
+      text-shadow: 1px 1px 1px #fff;
     }
 
     @media only screen and (max-width: 280px) {
@@ -54,8 +63,12 @@
 </head>
 
 <body>
-  <h1>Page Not Found</h1>
-  <p>Sorry, but the page you were trying to view does not exist.</p>
+  <div>
+    <h1>Page Not Found</h1>
+    <p>Looks like you're lost</p>
+    <img src="img/amongus.gif" alt="lost in space">
+  </div>
+  <div><a href="/">Go home</a></div>
 </body>
 
 </html>
