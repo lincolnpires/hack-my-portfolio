@@ -1,10 +1,11 @@
 {
+  "main": ".eleventy.js",
   "scripts": {
     "clean": "rm -rf dist",
     "prebuild": "npm run clean -s && rm -rf .cache",
     "build": "parcel build src/index.html",
     "dev": "parcel src/index.html --port 3000",
-    "eleventy": "eleventy --serve --port=8081 --formats=md,html",
+    "eleventy": "eleventy --input=./src --serve --port=3000",
     "start": "npm run build && npm run dev"
   },
   "dependencies": {
